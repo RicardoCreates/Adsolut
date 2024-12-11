@@ -1,8 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #606060;
-    color: white;
     height: 100vh;
     margin: 0;
 }
@@ -15,14 +13,20 @@ h1 {
     text-align: center; 
 }
 
+a {
+    text-align: center; 
+}
+
 header {
     background-color: #303030;
+    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
   }
 
 footer {
     background-color: #303030;
+    color: white;
     text-align: center;
     padding: 20px;
     position: relative;

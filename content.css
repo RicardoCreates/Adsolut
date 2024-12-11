@@ -1,0 +1,7 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
