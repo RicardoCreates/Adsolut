@@ -1,7 +1,18 @@
 body {
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+h1 {
+    text-align: center; 
+}
+
+a {
+    text-align: center; 
 }
