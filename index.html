@@ -7,12 +7,19 @@
     <title>Adsolut</title>
 </head>
 <body>
+    <div id="header"></div>
     <main>
-        <header>
-            <h1>Adsolut Marketing</h1>
-        </header>
         <a href="/contentPage.html">Content</a>
     </main>
-    <footer>All rights reserved</footer>
+    <div id="footer"></div>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('header').innerHTML = data);
+
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
 </body>
 </html>
