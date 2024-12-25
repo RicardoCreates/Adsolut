@@ -1,27 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Ads Service</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Adsolut</title>
 </head>
 <body>
-    <div id="header"></div>
-    <main>
-        <h1>
-        <a href="/contentPage.html">Content</a>
-    </h1>
-    </main>
-    <div id="footer"></div>
-    <script>
-        fetch('header.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('header').innerHTML = data);
-
-        fetch('footer.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('footer').innerHTML = data);
-    </script>
+    <header>
+        <h1>Google Ads Kampagnen Service</h1>
+        <nav>
+            <ul>
+                <li><a href="#start">Startseite</a></li>
+                <li><a href="#leistungen">Leistungen</a></li>
+                <li><a href="#ueber-uns">Über uns</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="start">
+        <h2>Willkommen bei deinem Google Ads Experten!</h2>
+        <p>Wir helfen dir dabei, deine Online-Präsenz mit Google Ads zu maximieren!</p>
+    </section>
+    <section id="leistungen">
+        <h2>Unsere Leistungen</h2>
+        <ul>
+            <li>Kampagnenerstellung</li>
+            <li>Optimierung laufender Kampagnen</li>
+            <li>Beratung und Strategieplanung</li>
+        </ul>
+    </section>
+    <section id="ueber-uns">
+        <h2>Über uns</h2>
+        <p>Mit jahrelanger Erfahrung im Bereich Online-Marketing bieten wir dir maßgeschneiderte Lösungen für deinen Erfolg.</p>
+    </section>
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Google Ads Service. Alle Rechte vorbehalten.</p>
+    </footer>
 </body>
 </html>
