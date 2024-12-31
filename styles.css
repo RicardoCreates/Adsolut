@@ -77,3 +77,33 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#leistungen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ueber-uns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kontakt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ueber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
